@@ -7,7 +7,7 @@ public class UserController : PlayerController {
     private PlayerController character;
     private float jumpForce = 15;
     private float runSpeed = 0.5f;
-    private bool grounCheck = false;
+    private bool groundCheck = false;
 
     private void Awake()
     {
@@ -20,7 +20,7 @@ public class UserController : PlayerController {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(grounCheck)
+            if(groundCheck)
             {
                 jump = true;
                 character.Jump(runSpeed, jumpForce);

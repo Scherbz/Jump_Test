@@ -110,5 +110,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 1712378820981976, guid: 1e7227996a3b6c441a03ac02fa0a42ae, type: 2}
-  spawnMin: 3
-  spawnMax: 3
+  spawnMin: 1
+  spawnMax: 1
